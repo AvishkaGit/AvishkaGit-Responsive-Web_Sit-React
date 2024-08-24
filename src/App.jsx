@@ -4,6 +4,8 @@ import Hero from './Components/Hero/Hero'
 import Programs from './Components/Programs/Programs'
 import Title from './Components/Title/Title'
 import About from './Components/About/About'
+import Campus from './Components/Campus/Campus'
+import Testimonials from './Components/Testimonials/Testimonials'
 
 const App = () => {
   return (
@@ -12,11 +14,16 @@ const App = () => {
       <Hero />
 
       <div className="container">
-        <Title subTitle='Our PROGRAM' title='What We Offer'/>
+        <Title subTitle='Our PROGRAM' title='What We Offer' />
         <Programs />
-        <About/>
+        <About />
+        <Title subTitle='Gallery' title='Campus Photos' />
+        <Campus />
+        <Title subTitle='TESTIMONIAL' title='What Student Says' />
+        <Testimonials />
+
       </div>
-      
+
     </div>
   )
 }
