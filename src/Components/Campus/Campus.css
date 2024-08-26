@@ -10,7 +10,19 @@
     justify-content: space-between;
     margin-bottom: 40px;
 }
-.gallery img{
+
+.gallery img {
     width: 23%;
     border-radius: 10px;
+}
+
+/* media query */
+@media (max-width: 800px) {
+    .gallery{
+        flex-wrap: wrap;
+    }
+    .gallery img{
+        width: 48%;
+        margin-bottom: 25px;
+    }
 }
